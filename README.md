@@ -29,7 +29,7 @@ The device consists of 7 components:
 - Seeed Studio XIAO ESP32 S3 (As the brains of the device)
 - Seeed Studio Lora32 SX1262 (For LoRa)
 - Seeed Studio L76K GNSS Module (For GPS)
-- GY-85 BMP085 Module (For Accelerometer, Gyroscope and an actual compass)
+- GY-9250 BMP085 Module (For Accelerometer, Gyroscope and an actual compass)
 - GC9A01 Round TFT screen 
 - 503040 600mAh Battery
 - Flexible antenna for the gps module (The standard ceramic one that comes with the module is far too bulky)
@@ -44,7 +44,7 @@ Even if they are not paired (and if enabled), nodes retransmit incoming data pac
 
 #### Display 
 
-The compass and map are drawn by taking GPS data from both nodes and the GY-85 compass and accelerometer to calculate the direction the other node is at.
+The compass and map are drawn by taking GPS data from both nodes and the GY-9250 compass and accelerometer to calculate the direction the other node is at.
 
 #### Battery
 
@@ -59,7 +59,7 @@ We could also tune transmition gain baised on distance, with some headroom of co
 
 #### Interface
 
-To maintain a compact formfactor, interaction with the node will be based on gestures, using the GY-85 accelerometer and gyro.
+To maintain a compact formfactor, interaction with the node will be based on gestures, using the GY-9250 accelerometer and gyro.
 
 Some of this gestures could be:
 -   Tap/Double Tap
@@ -75,3 +75,11 @@ We can leverage our LoRa connection to send quick preconfigurable messages or wr
 In the future I may develop an app to make this easier (tbh just use meshtashtic or meshcore atp), but this is intended for short notification like messages.
 
 I would also like to add an SOS function that sends a signal to all nodes paired, or even if enabled on both ends, all nodes in the network, this will make the nodes flash red and highlight the SOS'ing node.
+
+#### PCB (?)
+
+While I want to make the project as accessible as posible by using of the shelf components, In the future, to heavily reduce the size I would look towards making my own PCB, after all the software is finished and hardware proves to be capable
+
+#### 3D printed case
+
+I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable
