@@ -78,8 +78,18 @@ I would also like to add an SOS function that sends a signal to all nodes paired
 
 #### PCB (?)
 
-While I want to make the project as accessible as posible by using of the shelf components, In the future, to heavily reduce the size I would look towards making my own PCB, after all the software is finished and hardware proves to be capable
+While I want to make the project as accessible as posible by using of the shelf components, In the future, to heavily reduce the size I would look towards making my own PCB, after all the software is finished and hardware proves to be capable, this culd also lead to me selling the product, since this design would be more consumer friendly than the maker module version.
 
 #### 3D printed case
 
-I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable
+I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable, of course anyone could design their own cases, this inlcudes a optimized case for the future PCB when that is designed.
+
+#### FOSS and modularity
+
+I would like this project to be modular and community focused, so I encourage colaboration integrating for example:
+-   Other ESP or microcontroller models
+-   Other screens
+-   Extra input components
+-   Other IMU
+
+etc.. al from the same modular firmware.
