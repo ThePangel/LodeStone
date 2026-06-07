@@ -80,10 +80,17 @@ I would also like to add an SOS function that sends a signal to all nodes paired
 
 The PCB is a simple 4 layer PCB that as compactly as possible houses all of the off the shelf components, making it very cheap and easy to assemble, the two outter planes hold traces and GND while the two inner layers are full ground pours, a bunch of vias connect the 4 GNDs to improve RF performance
 
+![PCB1](PCB1.png)
+![PCB2](PCB2.png)
+
+![PCB3](PCB3.png)
+
 
 #### 3D printed case
 
 I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable, of course anyone could design their own cases.
+
+![CASE](case.png)
 
 #### FOSS and modularity
 
