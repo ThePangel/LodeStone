@@ -26,7 +26,7 @@ The name is a reference to the lodestone block in Minecraft which lets you set c
 
 ### How would it work?
 The device consists of 7 components:
-- Seeed Studio XIAO ESP32 S3 (As the brains of the device)
+- Seeed Studio XIAO ESP32 S3 Plus (As the brains of the device)
 - Seeed Studio Lora32 SX1262 (For LoRa)
 - Seeed Studio L76K GNSS Module (For GPS)
 - GY-9250 BMP085 Module (For Accelerometer, Gyroscope and an actual compass)
@@ -76,13 +76,14 @@ In the future I may develop an app to make this easier (tbh just use meshtashtic
 
 I would also like to add an SOS function that sends a signal to all nodes paired, or even if enabled on both ends, all nodes in the network, this will make the nodes flash red and highlight the SOS'ing node.
 
-#### PCB (?)
+#### PCB 
 
-While I want to make the project as accessible as posible by using off the shelf components, In the future, to heavily reduce the size I would like to look towards making my own PCB, after all the software is finished and hardware proves to be capable, this could also lead to me selling the product, since this design would be more consumer friendly than the maker module version. Of course, still Open Source
+The PCB is a simple 4 layer PCB that as compactly as possible houses all of the off the shelf components, making it very cheap and easy to assemble, the two outter planes hold traces and GND while the two inner layers are full ground pours, a bunch of vias connect the 4 GNDs to improve RF performance
+
 
 #### 3D printed case
 
-I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable, of course anyone could design their own cases, this includes an optimized case for the future PCB for when that is designed.
+I will make a 3D printed case, as small and tight as possible for it to be portable and comfortable, of course anyone could design their own cases.
 
 #### FOSS and modularity
 
