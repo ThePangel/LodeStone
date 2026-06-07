@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "New_XIAO_Series_Footprints") (type "KiCad") (uri "C:/Users/think/Downloads/New_XIAO_Series_Footprints.pretty") (options "") (descr ""))
+	(lib (name "New_XIAO_Series_Footprints") (type "KiCad") (uri "C:/Users/think/Downloads/New_XIAO_Series_Footprints.pretty") (options "") (descr ""))
+	(lib (name "LodeStoneFootprint") (type "KiCad") (uri "${KIPRJMOD}/LodeStoneFootprint.pretty") (options "") (descr ""))
+)
